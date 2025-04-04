@@ -1,25 +1,23 @@
 :: CODE INFO ::
 
-HTML Explanation (Short Points):
+HTML Explanation 
 
   Sets up the basic structure of the web page.
   Includes metadata for character encoding and responsive design.
   Specifies the title "TempConvert Hub".
   Links to the "Roboto Mono" font from Google Fonts for a coding style.
   Contains CSS styles within the <style> tags for visual presentation.
-  <header class="site-header">:
   Contains the website's title and logo area.
-  <div class="logo-placeholder">: Placeholder for the website's logo (thermometer emoji).
-  <h1 class="typing-effect">: The main title "Temperature Converter" with a typing animation effect.
-  <div class="container">:
+  Placeholder for the website's logo (thermometer emoji).
+  The main title "Temperature Converter" with a typing animation effect.
   Holds the main content of the temperature converter.
-  <p>: Provides instructions to the user.
-  <div class="converter-form">: Arranges the input and select elements for temperature conversion.
-  <input type="number" id="temperature">: Input field for the temperature value.
-  <select id="fromUnit">: Dropdown to choose the unit to convert from.
-  <select id="toUnit">: Dropdown to choose the unit to convert to.
-  <div id="result" class="result-display">: Displays the converted temperature.
-  <div class="social-icons">: Contains icons for social sharing and contact.
+  Provides instructions to the user.
+  Arranges the input and select elements for temperature conversion.
+  Input field for the temperature value.
+  Dropdown to choose the unit to convert from.
+  Dropdown to choose the unit to convert to.
+  Displays the converted temperature.
+  Contains icons for social sharing and contact.
   
 CSS Explanation (Short Points):
 
@@ -31,8 +29,6 @@ CSS Explanation (Short Points):
   Creates the typing animation effect for the header using CSS animations (typing and blink-caret).
   Sets up a flexible grid layout for the temperature converter form.
   Styles the input field, select dropdowns, and the result display.
-  Positions the social icons fixed at the bottom center of the page.
-  Includes media queries (@media) to adjust the layout and font sizes for different screen sizes (mobile up to 600px, tablets between 601px and 1024px) to ensure responsiveness.
   Defines CSS animations (cold-blink and hot-glow) that are applied to the body background based on the temperature.
 
 
@@ -42,13 +38,6 @@ JavaScript Functions Explanation (Short Points):
   Changes the body's background color based on the Celsius temperature value.
   Adds CSS classes (cold, pleasant, warm, hot, cold-animation, hot-animation) to the body to apply specific background colors and animations.
   
-  convertTemperature():
-  Gets the temperature input value and the selected 'from' and 'to' units.
-  Converts the input temperature to Celsius first.
-  Then, converts the Celsius temperature to the selected 'to' unit (Fahrenheit or Kelvin).
-  Displays the original and converted temperatures in the resultDiv.
-  Calls setBackgroundColor() with the calculated Celsius value to update the background.
-
 capitalizeFirstLetter(string):
   Takes a string as input and returns it with the first letter capitalized.
   Used to format the unit names in the output string.
@@ -90,5 +79,3 @@ Features Points:
   Engaging typing animation for the title.
   Fully responsive layout that works well on various devices (desktops, tablets, and mobile phones).
   Easy contact via email with a pre-filled subject line.
-  Convenient option to share the tool on WhatsApp.
-  Includes a placeholder for a website logo.
