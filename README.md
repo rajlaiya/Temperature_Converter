@@ -2,31 +2,24 @@
 
 HTML Explanation (Short Points):
 
-Sets up the basic structure of the web page.
-Includes metadata for character encoding and responsive design.
-Specifies the title "TempConvert Hub".
-Links to the "Roboto Mono" font from Google Fonts for a coding style.
-Contains CSS styles within the <style> tags for visual presentation.
-<header class="site-header">:
-Contains the website's title and logo area.
-<div class="logo-placeholder">: Placeholder for the website's logo (thermometer emoji).
-<h1 class="typing-effect">: The main title "Temperature Converter" with a typing animation effect.
-<div class="container">:
-Holds the main content of the temperature converter.
-<p>: Provides instructions to the user.
-<div class="converter-form">:
-Arranges the input and select elements for temperature conversion.
-<input type="number" id="temperature">: Input field for the temperature value.
-<select id="fromUnit">: Dropdown to choose the unit to convert from.
-<select id="toUnit">: Dropdown to choose the unit to convert to.
-<div id="result" class="result-display">: Displays the converted temperature.
-<div class="social-icons">:
-Contains icons for social sharing and contact.
-<a href="mailto:...">: Email icon linking to your email address.
-<span class="share-icon" onclick="shareOnWhatsApp()">: WhatsApp share icon that triggers a JavaScript function.
-<a href="#portfolio">: Placeholder for a portfolio link.
-<script>: Contains the JavaScript code for the dynamic functionality.
-
+  Sets up the basic structure of the web page.
+  Includes metadata for character encoding and responsive design.
+  Specifies the title "TempConvert Hub".
+  Links to the "Roboto Mono" font from Google Fonts for a coding style.
+  Contains CSS styles within the <style> tags for visual presentation.
+  <header class="site-header">:
+  Contains the website's title and logo area.
+  <div class="logo-placeholder">: Placeholder for the website's logo (thermometer emoji).
+  <h1 class="typing-effect">: The main title "Temperature Converter" with a typing animation effect.
+  <div class="container">:
+  Holds the main content of the temperature converter.
+  <p>: Provides instructions to the user.
+  <div class="converter-form">: Arranges the input and select elements for temperature conversion.
+  <input type="number" id="temperature">: Input field for the temperature value.
+  <select id="fromUnit">: Dropdown to choose the unit to convert from.
+  <select id="toUnit">: Dropdown to choose the unit to convert to.
+  <div id="result" class="result-display">: Displays the converted temperature.
+  <div class="social-icons">: Contains icons for social sharing and contact.
   
 CSS Explanation (Short Points):
 
@@ -81,7 +74,7 @@ Functionality Points:
 
   Temperature Conversion: Converts temperatures between Celsius, Fahrenheit, and Kelvin.
   Real-time Updates: Performs the conversion and updates the result automatically as the user types or selects units.
-  Dynamic Background: Changes the background color of the page based on the converted temperature in Celsius (light blue for cold, light green for pleasant, light yellow for warm, light orange/coral for hot).
+  Dynamic Background: Changes the background color of the page based on the converted temperature in Celsius.
   Typing Title: The website's title "Temperature Converter" in the header has a typing animation effect when the page loads.
   Social Sharing: Includes icons to share the website on WhatsApp and to contact via email.
 
